@@ -1,0 +1,20 @@
+@charset "utf-8";
+header,html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0;}
+body{font-family: "微软雅黑";display:flex;flex-direction: column}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input,select{outline:none;border:0;}
+img{display:block;border:0;}
+html{font-size:26.67vw;}    
+html,body{height:100%;}
+*{box-sizing:border-box;}
+/*640:31.25vw  750:26.67vw*/
+
+.header{height: 0.45rem;width: 3.75rem;background: url(../assets/headerbg.png);background-size:cover;display: flex;padding:0 0.1rem ;justify-content: space-between;align-items: center; }
+.slogo{display: block;width:0.82rem;height:0.3rem;text-indent: -266rem;background: url(../assets/slogo.png) no-repeat 0 0/2.18667rem .64rem;background-size: 100%}
+.tools{width:1.99rem;height:0.3rem;display: flex;}
+.search{display: block;height:0.3rem;width:0.48rem;color:#fff;text-align: center;line-height: 0.3rem;font-size:0.1rem;}
+.search span{font-size: 0.22rem}
