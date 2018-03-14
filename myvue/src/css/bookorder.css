@@ -1,0 +1,52 @@
+@charset "utf-8";
+header,html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0;}
+body{font-family: "微软雅黑";display:flex;flex-direction: column}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input,select{outline:none;border:0;}
+img{display:block;border:0;}
+html{font-size:26.67vw;}    
+html,body{height:100%;}
+*{box-sizing:border-box;}
+
+/*男频*/
+section{
+	background:#f3f3f3;
+	overflow:auto;
+}
+.toplist{
+	flex-direction:column;
+}
+.title{
+	font-size:0.2rem;
+	line-height:0.4rem;
+	font-weight:700;
+	padding:0 0.2rem;
+}
+.toplist li{
+	flex-grow:1;
+	background:#fff;
+	padding: 0.1rem 0;
+}
+.toplist li a{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0 0.15rem 0 0.2rem;
+	color:#333;
+}
+.list-img{
+	width:0.9rem;
+	height:0.6rem;
+}
+.list-name{
+	margin-right:0.4rem;
+	font-size:0.15rem;
+}
+.icon-right{
+	width:0.08rem;
+	height:0.16rem;
+}

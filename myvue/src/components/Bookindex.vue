@@ -3,7 +3,7 @@
 <div id="hello">
 	<headerhx/>
 	<navhx/>
-	<slot></slot>
+	<router-view/>
 	<footerhx/>
 </div>
 </template>

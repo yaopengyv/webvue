@@ -1,0 +1,44 @@
+#ind{
+	padding: 0 0.15rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	
+}
+#ind ul{
+	display: flex;
+	font-size: 0.11rem;
+	width: 100%;
+}
+#ind ul li:last-child{
+	flex: 1;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+#ind ul li{
+	height:0.31rem;
+	display: flex;
+	align-items: center;
+/*	width: 0.70rem;*/
+	padding: 0.03rem 0.1rem;
+	margin: 0.05rem 0.03rem;
+	border: 1px solid #fff;
+}
+#ind ul li span{
+	padding: 0.05rem 0.1rem;
+	margin: 0.05rem 0.03rem;
+	border: 1px solid #fff;
+}
+.active{
+	border-color: #ff6e6d!important;
+	color: #ff6e6d;
+	border-radius: 0.3rem;
+}
+#ind p{
+	font-size: 0.18rem;
+	height: 0.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff6e6d;
+}

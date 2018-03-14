@@ -1,0 +1,66 @@
+#hi{
+	background: #E9E9E9;
+}
+.swiper-slide{
+	width: 100%;
+	height: 1.2rem;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.re{
+	margin-bottom: 0.1rem;
+	padding-left: 0.15rem;
+	background: #fff;
+}
+h2{
+	padding: 0.15rem 0 0 0.08rem;
+	line-height: 0.21rem;
+	height: 0.36rem;
+	font-size:0.16rem;
+	position: relative;
+}
+h2 span{
+	height: 0.21rem;
+	width: 0.04rem;
+	position: absolute;
+	left: 0;
+	background: #fa4646;
+	display: inline-block;
+}
+.re_con{
+	display: flex;
+	padding: 0.15rem 0;
+}
+.re_con div{
+	margin:0 0.1rem;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.re_con div span{
+	color: #d00;
+}
+.re_con div i{
+	font-size: 0.15rem;
+}
+.re_con div em{
+	font-size: 0.14rem;
+}
+.re_con img{
+	width: 0.76rem;
+	height: 1rem;
+	box-shadow: 0 0 0.05rem;
+}
+.re_con div li{
+	font-size: 0.18rem;
+}
+.re ul{
+	font-size: 0.16rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 1.5rem;
+}

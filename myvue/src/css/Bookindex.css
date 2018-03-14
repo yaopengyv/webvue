@@ -12,5 +12,6 @@ html{font-size:26.67vw;}
 html,body{height:100%;}
 *{box-sizing:border-box;}
 /*640:31.25vw  750:26.67vw*/
-.con{flex:1;height:3.85rem;}
+#hello{/*display: flex;flex-direction: column;*/height:100%;overflow:auto;background: #e9e9e9;}
+/*.main{flex:1;}*/
 

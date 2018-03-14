@@ -1,0 +1,118 @@
+@charset "utf-8";
+header,html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0;}
+body{font-family: "微软雅黑";display:flex;flex-direction: column}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input,select{outline:none;border:0;}
+img{display:block;border:0;}
+html{font-size:26.67vw;}    
+html,body{height:100%;}
+*{box-sizing:border-box;}
+/*640:31.25vw  750:26.67vw*/
+.con{flex:1;height:3.85rem;}
+
+section{
+	/*display:flex;*/
+	flex-direction:column;
+	background:#fff;
+	padding-left:0.15rem;
+	overflow:auto;
+	background:#fff;
+}
+.shelf-operate{
+	height:0.5rem;
+	text-align:right;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+	background:#fff;
+}
+.books-column{background-color: #f3f3f3}
+.so-btn{
+	display: block;
+	padding:0 0.15rem;
+	font-size:0.16rem;
+	color:#fa4646;
+	cursor: pointer;
+	line-height:0.5rem;
+}
+
+.books-column li{
+	display:flex;
+	padding:0.15rem 0;
+	margin-bottom:0.01rem;
+	background:#fff;
+}
+.books-column li a{
+	position: relative;
+	flex:1;
+	display:flex;
+	align-items:center;
+	color:#335;
+}
+.books-column li span{
+	display:block;
+	min-width:0.76rem;
+	max-width:0.76rem;
+	height:1rem;
+	background-position:50% 50%;
+	background-size:cover;
+	border-radius:0.06rem;
+	box-shadow:0 0.05rem 0.08rem hsla(0,0%,79%,.5);
+}
+.cover{
+	position:relative;
+}
+.cover img{
+	min-width:0.76rem;
+	max-width:0.76rem;
+	height:1rem;
+}
+
+.descn{
+	display:flex;
+	flex-direction:column;
+	font-size:0.13rem;
+	color:#5e5e5e;
+	line-height:0.2rem;
+	text-align:left;
+	flex:1;
+	height:1rem;
+	padding-left:0.1rem;
+	justify-content:space-between;
+	overflow:hidden;
+}
+.name{
+	width:2.74rem;
+	font-size:0.17rem;
+	line-height:0.24rem;
+	padding-right:0.15rem;
+	font-weight:400;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.bookState{
+	position:absolute;
+	right:0.13rem;
+	top:1px;
+	color:#ff6e6d;
+	font-size:0.14rem;
+}
+.bookState:before{
+	content: "";
+	width:0.07rem;
+	height:0.12rem;
+	background:url(../assets/orderimg/racks.png) no-repeat;
+	background-size:cover;
+	position:absolute;
+	right:-0.1rem;
+	top:0.06rem;
+
+}
+img{
+	width:2rem;
+	height:2rem;
+}

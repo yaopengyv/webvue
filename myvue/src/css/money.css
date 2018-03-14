@@ -1,0 +1,197 @@
+@charset "utf-8";
+header,html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0;}
+body{font-family: "微软雅黑";display:flex;flex-direction: column}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input,select{outline:none;border:0;}
+img{display:block;border:0;}
+html{font-size:26.67vw;}    
+html,body{height:100%;}
+*{box-sizing:border-box;}
+/*640:31.25vw  750:26.67vw*/
+.con{flex:1;height:3.85rem;}
+
+section{
+	display:flex;
+	flex-direction: column;
+	font-size: 0.2rem;
+	background:#f3f3f3;
+}
+/*用户信息*/
+.user{
+	background:#fff;
+	margin-bottom:0.08rem;
+	padding:0.16rem 0.2rem;
+	font-size:0.16rem;
+	line-height:0.24rem;
+}
+.user strong{
+	font-weight:bold;
+}
+/*充值方式*/
+/*选择途径*/
+.pay-way{
+	display:flex;
+	flex-direction:column;
+	padding:0.2rem 0.14rem 0 0.16rem;
+	background:#fff;
+}
+.pay-way h2{
+	font-size:0.19rem;
+	font-weight:700;
+}
+.pay-list{
+	display: flex;
+	margin-top:0.32rem;
+}
+.active{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	border-color:#fa4646;
+	margin:0 auto 0.2rem;
+	width:1.62rem;
+	height:0.48rem;
+	text-align:center;
+	border-radius:0.06rem;
+	background-color:#eee;
+	border:.0.02rem solid #bfbfb;
+	position:relative;
+	color:#5e5e5e;
+	overflow:hidden;
+}
+.active .icon{
+	background:url(../assets/orderimg/money1.png) no-repeat 100% 50%/.6rem .24rem;
+	width:0.74rem;
+	height:0.48rem;
+}
+.active .divide{
+	color:#909090;
+	margin:auto 0.1rem;
+	font-weight:300;
+	text-align: center;
+}
+.pay-text{
+	font-size:0.1rem;
+	font-weight: 300;
+}
+.wx-scan .icon{
+	background:url(../assets/orderimg/money2.png) no-repeat 100% 50%/.25rem .24rem;
+	width:0.5rem;
+}
+/*充值金额*/
+.money-list{
+	margin-right:-0.16rem;
+	padding-top:0.3rem;
+	display:flex;
+	flex-wrap: wrap;
+}
+.money-item{
+	width:1.55rem;
+	height:0.87rem;
+	border:1px solid #fdac2a;
+	border-radius:0.06rem;
+	position:relative;
+	margin:0.15rem 0.18rem 0 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+.money-item span{
+	display:flex;
+	text-align:center;
+}
+.money-amount{
+	font-size:0.24rem;
+	line-height:0.34rem;
+}
+.mars-currency{
+	color: #fdac2a;
+	font-size: 0.12rem;
+}
+.give-currency{
+	position:relative;
+	right:-0.1rem;
+	font-size:0.12rem;
+	line-height:0.13rem;
+	top:0.04rem;
+}
+.give-currency::before{
+	display:inline-block;
+	content:"赠";
+	color:#fff;
+	font-size:0.12rem;
+	width:0.16rem;
+	text-align:center;
+	line-height:0.15rem;
+	border-radius:.004rem;
+	background:#fa4646;
+	margin-right:0.1rem;
+}
+.icon-current{
+	position:absolute;
+	font-size:0.12rem;
+	color:#fff;
+	/*bottom:2rem;*/
+	bottom:0;
+	right:0;
+	z-index:2;
+	font-family:duyaoicon!important;
+	speak:none;
+	font-style:normal;
+}
+/*.icon-current:before{
+	content:"\e906";
+}
+.icon-current:after{
+	display:none;
+	content:"";
+	position:absolute;
+	width:0;
+	height:0;
+	right:0;
+	bottom:-1px;
+	border-right:0.25rem solid #fa4646;
+	border-top:0.25rem solid transparent;
+}*/
+
+.submit{
+	display:flex;
+	flex-grow:1;
+	height:0.4rem;
+	justify-content:center;
+	align-items:center;
+	margin:0.55rem 0.45rem 0.45rem;
+	border-radius:0.6rem;
+	background:#fa4646;
+	font-size:0.17rem;
+	color:#fff;
+	letter-spacing:1px;
+
+}
+
+.tip{
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+}
+.title{
+	display:block;
+	flex-grow:1;
+	margin-bottom:0.11rem;
+	height:0.18rem;
+	border-left:.004rem solid #fa4646;
+	padding-left:0.1rem;
+	font-weight:700;
+}
+.tip-list{
+	font-size:0.14rem;
+	line-height:0.24rem;
+}
+.actives{
+	box-shadow:0 0 0 1px #fa4646;
+}

@@ -17,7 +17,7 @@ html,body{height:100%;}
 .footer form{
 	height:0.3rem;width:100%;display: flex;justify-content: space-between;margin-bottom: 0.1rem
 }
-.search-book{padding:0 0.0745rem;width:2.8rem;background: #fff;font-size: 0.14rem;color:;height:0.3rem;line-height: 0.3rem;}
+.search-book{padding:0 0.0745rem;width:2.8rem;background: #fff;font-size: 0.135rem;color:;height:0.3rem;line-height: 0.3rem;}
 .sbutton{height:0.3rem;background-color: transparent;color:#fff;flex:1;font-size: 0.16rem;line-height: 0.3rem}
 .nav-bottom{min-height:0.4rem;display: flex;justify-content: space-between;font-size: 0.14rem;border-bottom:1px solid #909090;/*margin-top: 0.1rem;*/overflow: hidden;}
 .nav-bottom a{display: block;height: 0.4rem;color:#fff;font-size: 0.16rem;line-height: 0.4rem}

@@ -1,20 +1,28 @@
 <template>
     <!-- <Bookindex/> -->
-    <router-view/>
+    <div id="hello">
+		<router-view/>
+	</div>
 </template>
 
 <script>
-import Bookindex from './components/Bookindex'
 import headerhx from './components/headerhx'
-
+import navhx from './components/navhx'
+import footerhx from './components/footerhx'
 export default {
   name: 'App',
-  // components:{
-  //     Bookindex,
-  //     headerhx
-  // }
+ data () {
+    return {
+        mes:"你好"
+    }
+  },
+  components:{
+      headerhx,
+      navhx,
+      footerhx
+
+  }
 }
 </script>
 
-<style src="./css/app1.css">
-</style>
+<style scope src="./css/Bookindex.css"></style>

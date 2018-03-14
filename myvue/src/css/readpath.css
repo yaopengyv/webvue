@@ -1,0 +1,30 @@
+@charset "utf-8";
+header,html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0;}
+body{font-family: "微软雅黑";display:flex;flex-direction: column}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input,select{outline:none;border:0;}
+img{display:block;border:0;}
+html{font-size:26.67vw;}    
+html,body{height:100%;}
+*{box-sizing:border-box;}
+/*640:31.25vw  750:26.67vw*/
+
+#hello{/*display: flex;flex-direction: column;*/overflow: auto;}
+.main{flex:1;}
+.banner{display: flex;height:0.45rem;border-bottom: 1px solid #e1e1e1;justify-content: space-between;align-items: center; background: #fff}
+.icon{display:block;height:0.45rem;width:0.48rem;line-height: 0.45rem;color:#909090;text-align: center;font-size: 0.1rem}
+.icon i{font-size: 0.3rem;color:#909090;}
+.section{background: #fff;padding-left: 0.15rem;height:1.3rem;}
+.seebook{padding:0.15rem 0;height: 1.3rem}
+.seebook a{display:block;height:1rem;display: flex;justify-content: space-between;}
+.seebook a .img-left{display:inline-block;height: 1rem;width: 0.76rem;/*background-image: url(../assets/iou.jpg); background-size: cover;background-position: 50% 50%*/box-shadow: 0 0.10667rem 0.16rem hsla(0,0%,79%,.5)}
+.seebook a .img-left img{height:100%;width:100%;}
+.descn{display: flex;flex-direction: column;justify-content: space-between;padding-left: 0.1rem;padding-right: 0.16rem}
+.descn h4{font-size: 0.17rem;width:2.59rem;height:0.24rem;padding-right:0.15rem; color:#333;}
+.descn span{font-size: 0.13rem;color:#333;}
+.descn .introduce{font-size:0.12rem;color:#999;}
+.descn .time{font-size:0.12rem;color:#999;}
